@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login form</title>
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- javascript link  -->
+    <script src="style.js"></script>
+
+    <!-- ion-icons link  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="span">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <form id="f">
+      <h1>Login</h1>
+
+      <div class="main">
+        <input type="text" required name="name"/>
+        <label> Full Name </label>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+
+      <div class="main">
+        <input type="password" required id="pass" name="pass"/>
+        <label> Password </label>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </div>
+
+      <section>
+        <label> <input type="checkbox" /> Remember Me</label>
+        <a href="#">Forgot Password</a>
+      </section>
+      <a href="#">
+        <input type="submit" value="Login" /></a>
+      <aside>
+        <p>
+          Dont have an account ? <a href="#" onclick="showsss()">Sign up</a>
+        </p>
+      </aside>
+    </form>
+
+    <!-- the form belongs to the sign up section  -->
+    <form id="signUp">
+      <h1>Sign Up</h1>
+
+      <div class="main">
+        <input type="text" required />
+        <label> Full Name </label>
+        <ion-icon name="person-outline"></ion-icon>
+      </div>
+
+      <div class="main">
+        <input type="password" required id="pass" />
+        <label> Password </label>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </div>
+
+      <div class="main">
+        <input type="password" required id="pass" />
+        <label>Renter Password</label>
+        <ion-icon name="lock-closed-outline"></ion-icon>
+      </div>
+
+      <section>
+        <label>
+          <input type="checkbox" />
+          <p>I agree to the term & service</p></label
+        >
+      </section>
+
+      <a href="#"><input type="submit" value="Sign Up" /></a>
+      <aside>
+        <p>
+          Already have an account ? <a href="#" onclick="showfff()">Login</a>
+        </p>
+      </aside>
+    </form>
+  </body>
+</html>
